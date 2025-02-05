@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 import { TodoService } from './todo.service';
 import { ApiBody } from '@nestjs/swagger';
-import { CreateTodoDto, UpdateTodoDto } from 'src/todo.dto';
+import { CreateTodoDto, UpdateTodoDto } from 'src/todo/todo.dto';
 
 @Controller('todo')
 export class TodoController {
